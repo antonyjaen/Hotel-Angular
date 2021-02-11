@@ -1,0 +1,13 @@
+
+
+
+POST http://34.69.191.72/log HTTP/1.1
+Content-Type: application/json 
+
+{
+        "pas":"password",
+        "user":"usuario"     
+        
+}
+      
+

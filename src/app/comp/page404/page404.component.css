@@ -1,0 +1,6 @@
+.img{
+    height: 97%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url("./../../../images/error-404.jpg");
+}

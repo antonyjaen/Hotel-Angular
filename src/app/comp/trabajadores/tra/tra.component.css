@@ -1,0 +1,112 @@
+table {
+    width: 100%;
+  }
+  tr.example-detail-row {
+    height: 0;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .example-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .example-element-detail {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .example-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+  }
+  
+  .example-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  .example-element-description {
+    padding: 16px;
+  }
+  
+  .example-element-description-attribution {
+    opacity: 0.5;
+  }
+  section {
+    display: table;
+    margin: 8px;
+  }
+  
+  button{
+    margin-left: 10px;
+    height: 35px;
+    width: 80px;
+  }
+  
+.fondo{
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(17, 17, 17, 0.70);
+}
+mat-label{
+  color: aliceblue;
+}
+input {
+  color: aliceblue;
+}
+::ng-deep input.mat-input-element {
+  color: #ffffff;
+}
+::ng-deep .mat-form-field-underline {
+  background-color: #f3f3f3 !important;
+}
+.example-button-row button,
+.example-button-row a {
+  color: rgb(248, 248, 248);
+  margin-right: 8px;
+}
+button{
+  color: #efefef;
+  margin-bottom:10px ;
+  margin-left: 10px;
+}
+.disp{
+  display: inline-block;
+  margin-right: 20px;
+}
+.espa{
+width: 90px;
+margin-top: 15px;
+}
+.sep{
+  margin-top: -30px;
+  margin-left: 70px;
+}
+
+.norl{
+  display : none;
+ }
+
+@media screen and (max-width: 990px) {
+  .norl{
+   margin-left: 10%;
+   display :block;
+   color: rgb(190, 18, 18);
+  }
+  .fondo{
+    display:none;
+  }
+}

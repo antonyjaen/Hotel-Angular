@@ -1,0 +1,31 @@
+.fondo{
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(17, 17, 17, 0.70);
+}
+.pru{
+    height: 300px;
+  }
+.preview{
+    height: 300px;
+    width: 300px;
+    margin-left: 35%;
+  }
+  .file-field.medium .file-path-wrapper {
+    height: 3rem; }
+    .file-field.medium .file-path-wrapper .file-path {
+    height: 2.8rem; }
+    
+    .file-field.big-2 .file-path-wrapper {
+    height: 3.7rem; }
+    .file-field.big-2 .file-path-wrapper .file-path {
+    height: 3.5rem; }
+
+    @media screen and (max-width: 900px) {
+      .preview{
+        height: 250px;
+        width: 250px;
+        margin-left: 1%;
+      }
+    }

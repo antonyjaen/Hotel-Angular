@@ -1,0 +1,81 @@
+.aut{
+    margin: 2%;
+    padding: 10px;
+    height: 300px;
+    width:  300px;
+    background: #000;
+}
+.fondo{
+    width: 1600px;
+    height: 700px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(17, 17, 17, 0.78);
+}
+.bod{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.example-form {
+    margin-top: 15%;
+    margin-left: 10%;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+button{
+    margin-left: 10%;
+}
+
+.im{
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    height: 800px;
+    width:  800px;
+    background-size: 130%;
+    background-image: url("https://rt00.epimg.net/retina/imagenes/2017/04/12/innovacion/1492013193_130130_1492014787_noticia_normal.jpg");
+}
+input{
+    width: 200px;
+}
+.error{
+    font-family:'Arial';
+    padding-left: 4%;
+    font-size: 15px;
+    color: crimson;
+}
+  
+
+@media screen and (max-width: 1000px) {
+    .im{
+      display: none;
+    }
+    .example-form {
+        margin-top: 15%;
+        margin-left: 10%;
+        min-width: 350px;
+        max-width: 500px;
+        width: 100%;
+    }
+    input{
+        width:60%;
+    }
+    button{
+        margin-left: 2%;
+        width: 200px;
+    }
+    .fondo{
+        margin-left: 2%;
+        width: 90%;
+        height: 500px;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: rgba(17, 17, 17, 0.78);
+    }
+    
+  }

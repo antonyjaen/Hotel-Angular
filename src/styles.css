@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: #334d50;  /* fallback for old browsers */
+    background: linear-gradient(to right,#334d50da, #cbcaa5a6),url('https://i.pinimg.com/originals/78/18/5e/78185e0f27d9ced0a0a2552e52477e9e.jpg') no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+ /*   
+    background-image: url("https://www.pierrelotihotel.com/wp-content/uploads/2017/09/pierre-loti-hotel-istanbul-1.jpg");
+*/}
+
+body::-webkit-scrollbar {
+    background: rgb(24, 24, 24);
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(103, 129, 60);
+    border-radius: 10px;
+}

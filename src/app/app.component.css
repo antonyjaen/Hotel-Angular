@@ -1,0 +1,47 @@
+header{
+    background-color: #fff;
+    z-index: 1;
+}
+.ffondo{
+    background-color: rgba(138, 180, 166, 0.726);
+}
+.fondo{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: rgba(17, 17, 17, 0.70);
+    width: 80%;
+    height: 70%;
+    position: fixed;
+}
+.cen{
+    margin-left:10%;
+    margin-top: 5%;
+}
+button{
+    margin-left: 30%;
+}
+.ima{
+    background-color: #fff;
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+.formu{
+    background: #000;
+    width: 35%;
+    height: 100%;
+    float: right;
+    
+}
+.ex{
+    margin-left: -13%;
+}
+
+.exx{
+    z-index: 1;
+    height: 50px;
+}
+

@@ -1,0 +1,63 @@
+
+<div class="fondo container my-5">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Numero</label>
+      <input type="text"[(ngModel)]="hab.numero" required class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Piso</label>
+      <input type="text" required [(ngModel)]="hab.piso" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="inputAddress">Descripcion</label>
+      <input type="text" required [(ngModel)]="hab.descripcion" class="form-control" id="inputAddress">
+    </div>
+  
+</div>
+  <div class="form-group">
+    <label for="inputAddress2">Caracteristicas</label>
+    <input type="text" required [(ngModel)]="hab.caracteristicas"class="form-control" id="inputAddress2"  >
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCity">precio</label>
+      <input type="text" required [(ngModel)]="hab.precio" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Estado</label>
+      <select id="inputState" required [(ngModel)]="hab.estado" class="form-control">
+        <option value="Ocupado">Ocupado</option>
+        <option value="Disponible">Disponible</option>
+        <option value="Mantenimiento">Mantenimiento</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">Tipo</label>
+        <select id="inputState" required [(ngModel)]="hab.tipo" class="form-control">
+          <option value="Familiar">Familiar</option>
+          <option value="Individual">Individual</option>
+          <option value="Matrimonial">Matrimonial</option>
+          <option value="Presidencial">Presidencial</option>
+        </select>
+      </div>
+  </div>
+  <div class="form-group">
+  </div>
+  <form class="md-form" enctype="multipart/form-data" class="post">
+    <div class="input-group mb-1">
+      <div class="custom-file">
+        <input type="file"  type="file" name="file" (change)="cargar($event)" class="custom-file-input" id="inputGroupFile01">
+        <label class="custom-file-label" for="inputGroupFile01" >{{txtimg}}</label>
+      </div>
+    </div>
+  </form>
+  
+  <br>
+  <img mat-card-image id='preview'class='preview'*ngIf='preview' src="{{hab.img}}" alt="No Imagen">
+  <br><br>
+  <button type="submit" (click)="comprovar()" class="btn btn-primary">Guardar</button>
+</div>
+
